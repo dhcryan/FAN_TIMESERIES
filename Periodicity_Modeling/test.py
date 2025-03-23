@@ -94,8 +94,11 @@ for epoch in range(num_epochs):
         # plot
         plot_periodic_data(t, data, t_test, data_test, result, args, epoch, path, y_uper, y_lower)
 
-torch.save(model.state_dict(), f'{args.model_name}/.pth')
+model_save_dir = f'{path}'  # Use the path passed as argument
+if not os.path.exists(model_save_dir):
+    os.makedirs(model_save_dir)
 
+torch.save(model.state_dict(), f'{model_save_dir}/model.pth')
 model.eval()
 
 total_test_loss = 0
@@ -108,7 +111,7 @@ with torch.no_grad():
         total_test_loss += test_loss.item()
     print(f'Final Epoch, Test Loss {total_test_loss / len(dataloader_test)}')
 
-    
-    
+
+
 
 

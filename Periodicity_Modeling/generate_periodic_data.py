@@ -18,7 +18,8 @@ def gen_periodic_data(periodic_type):
 
         PERIOD = 6
         BATCHSIZE = 32
-        NUMEPOCH = 10000
+        # NUMEPOCH = 10000
+        NUMEPOCH = 1000
         PRINTEPOCH = 50
         lr = 1e-5
         wd = 0.01
@@ -44,7 +45,7 @@ def gen_periodic_data(periodic_type):
 
         PERIOD = 20
         BATCHSIZE = 32
-        NUMEPOCH = 10000
+        NUMEPOCH = 1000
         PRINTEPOCH = 50
         lr = 1e-5
         wd = 0.01
@@ -72,7 +73,7 @@ def gen_periodic_data(periodic_type):
 
         PERIOD = 4
         BATCHSIZE = 32
-        NUMEPOCH = 10000
+        NUMEPOCH = 1000
         PRINTEPOCH = 50
         lr = 1e-5
         wd = 0.01
@@ -98,7 +99,7 @@ def gen_periodic_data(periodic_type):
 
         PERIOD = 4
         BATCHSIZE = 32
-        NUMEPOCH = 10000
+        NUMEPOCH = 1000
         PRINTEPOCH = 50
         lr = 1e-5
         wd = 0.01
@@ -125,7 +126,7 @@ def gen_periodic_data(periodic_type):
 
         PERIOD = 4
         BATCHSIZE = 32
-        NUMEPOCH = 10000
+        NUMEPOCH = 1000
         PRINTEPOCH = 50
         lr = 1e-5
         wd = 0.01
@@ -152,7 +153,7 @@ def gen_periodic_data(periodic_type):
 
         PERIOD = 4
         BATCHSIZE = 32
-        NUMEPOCH = 10000
+        NUMEPOCH = 1000
         PRINTEPOCH = 50
         lr = 1e-5
         wd = 0.01
@@ -184,7 +185,7 @@ def gen_periodic_data(periodic_type):
 
         PERIOD = 4
         BATCHSIZE = 32
-        NUMEPOCH = 10000
+        NUMEPOCH = 1000
         PRINTEPOCH = 50
         lr = 1e-5
         wd = 0.01
@@ -212,7 +213,7 @@ def gen_periodic_data(periodic_type):
 
         PERIOD = 4
         BATCHSIZE = 32
-        NUMEPOCH = 10000
+        NUMEPOCH = 1000
         PRINTEPOCH = 50
         lr = 1e-5
         wd = 0.01
